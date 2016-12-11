@@ -7,12 +7,17 @@ newChifre = newChifre.split(",");
 parseInt(newChifre);
 var res = newChifre[0] *= newChifre[1];
 alert("Votre chifre: " + res);
+var age = prompt("Entrez votre age");
+var sexe = prompt("Entrez votre sexe");
+var nation = prompt("Entrez votre nationnalité");
 
-var age = prompt("Entrez votre age: ");
+var majeur = "Vous êtes majeur!";
+var mineur = "Vous êtes mineur";
+
 	if (age > 18){
-		alert("Vous êtes majeur!");
+		alert("Vous êtes " + sexe + " " + "majeur " + nation + "!");
 	}
 
 	else {
-		alert("Vous êtes mineur");
+		alert("Vous êtes " + sexe + " " + "mineur " + nation + "!");
 	}
