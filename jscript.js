@@ -4,3 +4,8 @@ var city = "Ney York";
 alert("       Nom: "+ nom + "\n       Prenom: " + prenom + "\n       Ville: " + city);
 var newName = prompt("Votre nom?");
 alert("Bonjour, " + newName + "!");
+var newChifre = prompt("Entrez les chifres pour multiplier");
+newChifre = newChifre.split(",");
+parseInt(newChifre);
+var res = newChifre[0] *= newChifre[1];
+alert("Votre chifre: " + res);
