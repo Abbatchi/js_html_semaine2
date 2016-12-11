@@ -9,3 +9,4 @@ newChifre = newChifre.split(",");
 parseInt(newChifre);
 var res = newChifre[0] *= newChifre[1];
 alert("Votre chifre: " + res);
+prompt("Entrez votre age: ");
